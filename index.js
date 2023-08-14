@@ -56,13 +56,17 @@ function closeParenthesis() {
 function ac() {
   calculate.innerHTML = " ";
 }
+function powerTwo() {
+  calculate.innerHTML += "**2";
+}
+function powerThree() {
+  calculate.innerHTML += "**3";
+}
+
 function equal() {
   calculate.innerHTML = eval(calculate.textContent);
 }
 
 function del() {
-   
+  calculate.textContent = calculate.textContent.slice(0, -1);
 }
-
-
-
