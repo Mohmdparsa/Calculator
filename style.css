@@ -1,15 +1,14 @@
-fieldset {
+.mainDiv{
   width: 500px;
   height: 500px;
-  margin-left: 400px;
-  margin-top: 70px;
+  margin-left: 420px;
+  margin-top: 10px;
   background-color: #7286d3;
   border-radius: 7px;
 }
-legend {
+.title{
   text-align: center;
-  font-weight: bold;
-  font-size: 30px;
+  font-size: 50px;
 }
 
 #calculate {
